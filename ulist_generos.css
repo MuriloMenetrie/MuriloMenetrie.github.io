@@ -115,10 +115,10 @@ a{
 }
 
 .botao-entrar{
-	background: #FFE748;
-	border: 1px #FFE748;
+	background: #000000;
+	border: 1px #000000;
 	border-radius: 5px;
-	color: #000000;
+	color: #FFE748;
 	display: inline-block;
 	height: 40px;
 	letter-spacing: -1px;
@@ -126,11 +126,11 @@ a{
 	padding: 4px;
 	text-align: center;
 	text-decoration: none;
-	width: 354px;
+	width: 150px;
 	transition-duration: 0.5s;
 	transition-timing-function: ease-in-out;
 	justify-content: center;
-	margin-left: 185px;
+	margin-left: 550px;
 	margin-right: 0;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -143,4 +143,5 @@ a{
 	border-radius: 15px;
 	background-color: #FFE748;
 	color: #000000;
+	border: 1px solid #000000;
 }       
