@@ -1,0 +1,115 @@
+/*Gerais*/
+body{
+	background-color:  #FFE748;
+	font-family: "Nunito", sans-serif;
+	max-width: 220vh;
+	max-height: 220vh;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	color: #145ac0;
+	text-decoration: underline 1px;
+	font-size: 100%;
+}
+
+#menu a {
+	color: #FFE748;
+	text-decoration: none;
+	font-size: 100%;
+}
+
+
+/*Menu Superior*/
+#menu{
+	align-content: space-around;
+	background: #121212   ;
+    color: #FFE748;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	position: relative;
+	z-index: 999;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	}
+
+.botoes{
+	font-weight: bold;
+	height: 30px;
+	margin: 5px;
+	text-align: center;
+	width: 95px;}
+
+#header{
+	z-index: 9999;
+	width: 100px;
+	height: 29.5px;
+	color: #ffffff;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	text-align: left;
+	align-content: space-around;
+	margin-left: 25px;
+	margin-top: 10px;
+	position: absolute;
+	padding: 0;
+    object-fit: cover;
+}
+
+#linha{
+	position: absolute;
+	height: 20px;
+	right: 100px;
+	top: 15.5px;
+	border: 1px solid #FFE748;
+}
+
+#titulo{
+    font-size: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#titulo h2{
+	margin: 0;
+}
+
+#catalogo img{
+    margin: 0;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+    -webkit-box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow:    0px 15px 15px 0px rgba(0, 0, 0, 0.7);
+    box-shadow:         0px 15px 15px 0px rgba(0, 0, 0, 0.7);
+	}
+
+#catalogo{
+	display: inline-flex;
+    align-content: flex-start;
+	flex-wrap: wrap;
+    justify-content: flex-start;
+	align-content: center;
+    margin-left: 25px;
+	margin-top: 25px;
+	padding: 0;
+}
+
+.imagens{
+	text-align: center;
+	width: 19.5%;
+	margin-top: 10px;
+}
+
+.imagens p {
+	font-size: 16px;
+	font-weight: bold;
+}
