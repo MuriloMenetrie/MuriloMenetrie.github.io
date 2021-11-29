@@ -8,6 +8,17 @@ body{
 	padding: 0;
 }
 
+body::-webkit-scrollbar{
+  width: 7px;}
+
+body::-webkit-scrollbar-track {
+  background: #000000;}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #FFE748;  
+  border-radius: 20px;       
+ }
+
 a{
 	color: #145ac0;
 	text-decoration: underline 1px;
@@ -78,7 +89,7 @@ a{
 }
 
 #titulo h2{
-	margin: 0;
+	margin: 15px 0 0 0;
 }
 
 #catalogo img{
@@ -94,11 +105,10 @@ a{
 
 #catalogo{
 	display: inline-flex;
-    align-content: flex-start;
 	flex-wrap: wrap;
-    justify-content: flex-start;
+  justify-content: flex-start;
 	align-content: center;
-    margin-left: 25px;
+  margin-left: 25px;
 	margin-top: 25px;
 	padding: 0;
 }
@@ -109,12 +119,33 @@ a{
 	margin-top: 10px;
 }
 
+  .imagens span{
+  
+  color: rgba(255, 231, 72, 0);
+  border-radius: 50%;
+  font-size: 75px;
+  position: absolute;
+  transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+  z-index: 1;
+  height: 150px;
+  width: 150px;
+  line-height: 150px;
+  }
+
+.imagens span:hover{
+    color: #FFE748;
+    font-size: 75px;
+    background-color: rgba(0, 0, 0, 0.493);
+  }
+
+
 .imagens p {
 	font-size: 16px;
 	font-weight: bold;
 }
 
-.botao-entrar{
+.botao-continuar{
 	background: #000000;
 	border: 1px #000000;
 	border-radius: 5px;
@@ -132,13 +163,13 @@ a{
 	justify-content: center;
 	margin-left: 550px;
 	margin-right: 0;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	font-weight: bold;
 	font-size: 20px;
 }
 
-.botao-entrar:hover{
+.botao-continuar:hover{
 	transform: scale(1.1);
 	border-radius: 15px;
 	background-color: #FFE748;
