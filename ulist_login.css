@@ -312,3 +312,15 @@ h4{
     font-size: 14px;
     color: #121212;
 }
+
+#foto{
+  position: absolute;
+  left: 53%;
+  height: 90%;
+  width: 47%;
+}
+
+#foto img{
+  height: 106%;
+  width: 100%;
+}

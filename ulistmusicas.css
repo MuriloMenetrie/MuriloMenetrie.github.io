@@ -1,0 +1,300 @@
+/* Gerais */
+body{
+	background: #121212;
+	font-family: "Nunito" ,sans-serif;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0;
+	padding: 0;
+  overflow-x: auto;
+  scroll-behavior: smooth
+  
+	}
+
+body::-webkit-scrollbar{
+  width: 7px;}
+
+body::-webkit-scrollbar-track {
+  background: #000000;}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #FFE748;  
+  border-radius: 0;       
+ }
+
+/* Home */
+/* Links */
+a{
+color: #ffffff;
+font-size: 90%;
+text-decoration: none;
+}
+
+/* Header/menu */
+#menu{
+	align-content: space-around;
+	background: #2a2f35;
+	color: #ffffff;
+	display: block;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	position: fixed;
+	z-index: 999;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	width: 200px;}
+
+.linha{
+  z-index: 1000;
+  width: 188px;
+  border-bottom: 2px solid #ffffff91;
+  margin: 20px 10px 20px 10px;
+}
+
+#menu div{
+  margin: 5px;
+}
+
+#bloco a{
+  padding-left: 10px;
+}
+
+#btns-search{
+  vertical-align: middle;
+  color: yellow;
+}
+
+#bloco2{
+  justify-content: center;
+  height: 180px;
+  font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+	align-content: center;
+	text-align: start;
+	line-height: 30px;
+	width: 96%;
+	z-index: 98;
+  overflow: auto;
+}
+
+#bloco2::-webkit-scrollbar{
+  width: 7px;}
+
+#bloco2::-webkit-scrollbar-track {
+  background: #23282e;}
+
+#bloco2::-webkit-scrollbar-thumb {
+  background-color: #FFE748;  
+  border-radius: 0;       
+ }
+
+#bloco2 div{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+#menu a{
+  padding-left: 10px;
+}
+
+#bloco2 p{
+  margin: 0;
+	font-size: 14px;
+}
+
+#btns-add{
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.quadradinho{
+    vertical-align: middle;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    background-color: #23282e;
+}
+
+.botoesespeciais{
+  margin-left: 0;
+  margin: 0;
+  vertical-align: middle;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  height: 28px;
+  width: 180px;
+  border-radius: 5px;
+  background-color: #23282e00;
+  font-size: 16px;
+	font-weight: bold;
+	align-content: center;
+	text-align: start;
+	line-height: 28px;
+	z-index: 98;
+  transition-property: background;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+	justify-content: center;
+}
+
+.botoesespeciais2{
+  margin-left: 0;
+  margin: 0;
+  vertical-align: middle;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  height: 28px;
+  width: 180px;
+  border-radius: 5px;
+  background-color: #23282e;
+  font-size: 16px;
+	font-weight: bold;
+	align-content: center;
+	text-align: start;
+	line-height: 28px;
+	z-index: 98;
+  transition-property: background;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+	justify-content: center;
+}
+
+
+.botoes{
+	font-size: 16px;
+	font-weight: bold;
+	height: 28px;
+	margin: 0;
+	align-content: center;
+	text-align: start;
+	line-height: 28px;
+	width: 100%;
+	z-index: 98;
+}
+
+.botoes2{
+	font-size: 90%;
+	font-weight: bold;
+	height: 28px;
+	margin: 2px;
+	align-content: center;
+	text-align: start;
+	line-height: 28px;
+	width: 100%;
+	z-index: 98;	
+}
+
+#avatar{
+	vertical-align: middle;
+	justify-content: flex-end;
+	align-content: center;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	z-index: 5;
+	object-fit: cover;
+	padding: 5px;
+}
+
+.redondinho{
+    vertical-align: middle;
+    height: 45px;
+	width: 90%;
+    border-radius: 25px;
+    background-color: #23282e;
+	margin-bottom: 10px;
+}
+
+.redondinho a{
+  padding: 0px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#header img{
+    height: 40px;
+    width: 110px;
+}
+
+#header{
+	font-size: 50px;
+	z-index: 9999;
+	width: 100%;
+	height: 50px;
+	color: #ffffff;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	text-align: center;
+	align-content: center;
+	margin: 0;
+	padding: 0;}
+
+    #checkbox{
+        border-radius: 50px;
+        color: #FFE748;
+    }
+    
+    .label{
+        font-size: 16px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 5px;
+        text-align: left;
+        align-content: flex-start;
+        justify-content: left;
+    }
+
+/* Imagens */
+.filmes{
+  position: absolute;
+  align-content: flex-end;
+  z-index: 1;
+  right: 2px;
+  top: 2px;
+}
+
+#poster-topo{
+  position: absolute;
+  left: 15%;
+  width: 85%;
+  height: auto;
+  background-color: #FFE748;
+}
+
+#poster-topo img{
+  margin-left: 35%;
+  max-width: 30%;
+  max-height: 85%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#bloco-playlists{
+	position: absolute;
+  margin-top: 15%;
+  left: 20%;
+  width: 75%;
+  height: fit-content;
+  margin-bottom: 50px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+#bloco-playlists img{
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
