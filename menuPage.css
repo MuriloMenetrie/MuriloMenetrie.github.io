@@ -13,6 +13,19 @@ body::-webkit-scrollbar-thumb {
   background-color: #FFE748;       
  }
 
+.apple{
+  border-radius: 25%;
+  background-color: white;
+  width: 49px;
+  height: 49px;
+  margin-top: 20px;
+}
+
+.apple img{
+  width: 49px;
+  height: 49px;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -304,7 +317,7 @@ body::-webkit-scrollbar-thumb {
 .caixa5 .icons{
     margin-top: 2%;
     margin-left: 8%;
-    display: inline-block;
+    display: -webkit-box;
 }
 
 .g1 .caixa7{
